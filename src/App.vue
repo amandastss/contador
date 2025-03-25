@@ -14,7 +14,7 @@ function decrementar(){
 
 <template>
 <h1>
- Meu contador
+ Meu contador 2025
 </h1>
 <p>Valor do contador: {{ contador }}</p>
 <button v-on:click="incrementar">+</button>
