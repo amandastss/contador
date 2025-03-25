@@ -8,7 +8,12 @@ function incrementar(){
   
 }
 function decrementar(){
-  contador.value--
+  if (contador.value > 0) {
+    contador.value--
+  } else {
+    alert(`O contador não pode ser menor que 0!`)
+  }
+
 }
 function reiniciar(){
   contador.value = 0
